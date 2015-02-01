@@ -1,0 +1,87 @@
+/*
+    Document   : style.css
+    Created on : Nov 13, 2011, 5:20:50 PM
+    Author     : J
+    Description:
+        General site stylesheet
+*/
+
+/* screen message */
+#screen-messages
+{
+    position: fixed;
+    z-index: 100;
+    //right:10px;
+    width: 100%;
+    opacity: 0.9;
+
+    //padding: 10px;
+    //border-radius: 4px;
+}
+#screen-messages .alert{
+    margin-top: 10px;
+}
+.padding-home
+{
+    padding-top: 55px;
+    padding-bottom: 40px;
+}
+
+.bg_white
+{
+    background-color: #fff;
+}
+
+.modal-style
+{
+    width: 500px;
+    background-color: #fff;
+}
+
+.m_top_200
+{
+    margin-top: 200px;
+}
+
+/*
+ *    Custom alert notification
+ */
+.customalert{
+    position:relative;
+    padding:13px;
+    padding-left: 30px;
+    text-align: center;
+    font-size:15px;
+    //border-radius: 6px;
+}
+
+.customalert-success{
+    margin-top:3px;
+    color:#FFF;
+    background-color:#66C066;
+}
+
+.customalert-danger, .customalert-error{
+    margin-top:3px;
+    color:#FFF;
+    background-color:#FC322E;
+}
+.customalert-info{
+    margin-top:3px;
+    color:#FFF;
+    background-color:#2278ae;
+}
+.customalert-warning{
+    margin-top:3px;
+    color:#555;
+    background-color:#f1e7bc;
+}
+
+.min_ht_600{
+    min-height: 600px;
+}
+
+.color_white
+{
+    color: #fff;
+}
